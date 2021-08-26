@@ -1,0 +1,68 @@
+<?php
+
+return [
+    [
+        'currency_id' => 1,
+        'buy' => 30.48,
+        'sell' => 31.15,
+        'begins_at' => 1629811007,
+        'office_id' => 1,
+        'created_at' => time(),
+    ],
+    [
+        'currency_id' => 1,
+        'buy' => 32.44,
+        'sell' => 33.18,
+        'begins_at' => 1629821807,
+        'office_id' => 1,
+        'created_at' => time(),
+    ],
+    [
+        'currency_id' => 1,
+        'buy' => 31.85,
+        'sell' => 32.01,
+        'begins_at' => 1629811010,
+        'office_id' => 2,
+        'created_at' => time(),
+    ],
+    [
+        'currency_id' => 1,
+        'buy' => 32.15,
+        'sell' => 33.33,
+        'begins_at' => 1629821867,
+        'office_id' => null,
+        'created_at' => time(),
+    ],
+    [
+        'currency_id' => 2,
+        'buy' => 28.28,
+        'sell' => 29.29,
+        'begins_at' => 1629811007,
+        'office_id' => 1,
+        'created_at' => time(),
+    ],
+    [
+        'currency_id' => 2,
+        'buy' => 27.85,
+        'sell' => 28.18,
+        'begins_at' => 1629821867,
+        'office_id' => 3,
+        'created_at' => time(),
+    ],
+    [
+        'currency_id' => 2,
+        'buy' => 26.45,
+        'sell' => 27.99,
+        'begins_at' =>  1629818267,
+        'office_id' => null,
+        'created_at' => time(),
+    ],
+    [
+        'currency_id' => 2,
+        'buy' => 28.32,
+        'sell' => 27.16,
+        'begins_at' => 1629824147,
+        'office_id' => null,
+        'created_at' => time(),
+    ],
+];

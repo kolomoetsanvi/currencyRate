@@ -1,0 +1,20 @@
+### Send POST request with json body
+POST http://currencyRate/rate/set
+Content-Type: application/json
+
+{
+  "currency": "EUR",
+  "buy": 79.56,
+  "sell": 80.12,
+  "begins_at": "10.01.2020 15:20:30",
+  "office_id": null
+}
+
+### Send POST request with json body
+POST http://currencyRate/rate/office-rates
+Content-Type: application/json
+
+{
+  "office_id": "A1",
+  "at_date": "24.08.2021 20:56:00"
+}
